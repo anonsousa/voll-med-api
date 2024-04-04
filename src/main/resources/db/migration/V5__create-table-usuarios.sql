@@ -1,0 +1,5 @@
+CREATE TABLE usuarios (
+    id SERIAL PRIMARY KEY,
+    login VARCHAR(100) NOT NULL UNIQUE,
+    senha VARCHAR(250) NOT NULL UNIQUE
+);
